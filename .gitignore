@@ -1,0 +1,23 @@
+# Arquivos compilados
+*.class
+
+# Banco de dados
+*.db
+
+# Arquivos JAR
+lib/*.jar
+
+# Saída de build
+/bin/
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
