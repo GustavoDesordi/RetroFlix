@@ -42,3 +42,9 @@ RetroFlix/
 
 ## 🛠️ Autor
 Desenvolvido por **Gustavo Desordi** como projeto da disciplina *Algoritmos e Programação*.
+
+---
+
+<p align="center">
+  <img src="https://i.pinimg.com/originals/41/36/2b/41362b7f052b1c34e9774e2c278397e6.gif" alt="Cute cat" />
+</p>
