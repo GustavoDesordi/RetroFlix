@@ -4,6 +4,8 @@ public class DVD extends Midia {
     
     private boolean possuiExtras;
 
+    public DVD() {}
+
     public DVD(String tituloFilme, double precoBase, boolean possuiExtras){
         super(tituloFilme, precoBase); 
         this.possuiExtras = possuiExtras; 

@@ -2,6 +2,7 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
+import locadora.BancoDeDados;
 import locadora.Cliente;
 import locadora.DVD;
 import locadora.FitaVHS;
@@ -11,6 +12,7 @@ import locadora.Streaming;
 
 public class Main {
     public static void main(String[] args) {
+        BancoDeDados.inicializar();
         Scanner scanner = new Scanner(System.in);
         GerenciadorLocadora gerenciador = new GerenciadorLocadora();
 
@@ -67,6 +69,7 @@ public class Main {
         } while (opcao != 7);
 
         scanner.close();
+        BancoDeDados.fechar(); 
     }
 
     private static void exibirMenu() {

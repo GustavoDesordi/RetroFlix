@@ -4,6 +4,8 @@ public class Streaming extends Midia{
     
     private String plataforma;
 
+    public Streaming() {}
+
     public Streaming(String tituloFilme, double precoBase, String plataforma){
         super(tituloFilme, precoBase);
         this.plataforma = plataforma;

@@ -1,11 +1,17 @@
 package locadora;
 
+import org.dizitart.no2.objects.Id;
+
 public class Cliente {
     private static int proximoId = 1; 
     
     private String nome; 
     private String email;
+    @Id
     private int id; 
+
+    // construtor padrão pro jackson kkk
+    public Cliente() {}
 
     public Cliente(String nome, String email){
         this.nome = nome;

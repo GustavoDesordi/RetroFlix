@@ -1,14 +1,23 @@
 package locadora;
 
+import java.util.UUID;
+
+import org.dizitart.no2.objects.Id;
+
 public class Locacao { 
-    
+
+    @Id
+    private String idLocacao;
     private Cliente cliente; 
     private Midia midia;    
     private int diasLocacao;
     private double valorTotal;
     private boolean statusAtiva;
 
+    public Locacao() {}
+
     public Locacao(Cliente cliente, Midia midia, int diasLocacao) {
+        this.idLocacao = UUID.randomUUID().toString();
         this.cliente = cliente;
         this.midia = midia;
         this.diasLocacao = diasLocacao;

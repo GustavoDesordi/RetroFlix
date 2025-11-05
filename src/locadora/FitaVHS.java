@@ -4,6 +4,8 @@ public class FitaVHS extends Midia{
 
     private boolean rebobinada;
 
+    public FitaVHS() {}
+
     public FitaVHS(String tituloFilme, double precoBase){
         super(tituloFilme, precoBase);
         this.rebobinada = true;
